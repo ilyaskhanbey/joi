@@ -63,7 +63,7 @@ module.exports = {
     resolve: {
       alias: {
           [Path.join(__dirname, '../lib/annotate.js')]: false,
-          [Path.join(__dirname, '../lib/manifest.js')]: false,
+        //   [Path.join(__dirname, '../lib/manifest.js')]: false,
           [Path.join(__dirname, '../lib/trace.js')]: false,
           [Path.join(__dirname, '../lib/types/binary.js')]: false,
           [Path.join(__dirname, '../node_modules/@hapi/tlds/esm/index.js')]: false,
